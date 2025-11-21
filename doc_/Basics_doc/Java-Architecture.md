@@ -55,11 +55,11 @@ The Java execution model is designed to make programs portable, secure, and effi
 
 ### Java Basic Program
 
-- Public class Demo {
-- public static void main(String[] args) {
-- System.out.println("Hello, World!");
- }
- }
+```java
+public static void main(String[] args) {
+  System.out.println("Hello,");
+  System.out.println("World!");
+}
 
 At this stage:
 
@@ -72,6 +72,7 @@ At this stage:
 The Java compiler checks your code for syntax errors, type checking and semantic rules.
 
 If the code is vaild, it produces bytecode(.class files).
+
 
 
 
