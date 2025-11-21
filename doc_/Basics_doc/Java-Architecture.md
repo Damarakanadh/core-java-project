@@ -9,7 +9,12 @@ You write `.java` files in any editor or IDE.
 ## 2. Java Compiler (javac)
 
 The Java compiler converts `.java` files into **bytecode** (`.class` files).
-
+### What the compiler does:
+- Checks for error
+- Converts high-level Java code into platform-independent bytecode.
+- Generates one .class file per class
+#### Output:
+Demo.java  -> Demo.class
 ## 3. Java Virtual Machine (JVM)
 
 The JVM executes bytecode.  
@@ -67,3 +72,4 @@ At this stage:
 The Java compiler checks your code for syntax errors, type checking and semantic rules.
 
 If the code is vaild, it produces bytecode(.class files).
+
