@@ -61,6 +61,8 @@ public static void main(String[] args) {
   System.out.println("World!");
 }
 
+{content: }
+
 At this stage:
 
 - Syntax has no validation yet.
@@ -72,6 +74,7 @@ At this stage:
 The Java compiler checks your code for syntax errors, type checking and semantic rules.
 
 If the code is vaild, it produces bytecode(.class files).
+
 
 
 
